@@ -15,7 +15,7 @@ export default function GetDataFromServer() {
     console.log("weathers",weathers)
 
     return (
-        <div style="width:40%">
+        <div>
             <ul>
                 {weathers.map((weather) =>{
                     return <li key={weather.temperatureC}>{weather.temperatureC}</li>
