@@ -4,6 +4,7 @@ import GetDataFromServer from './components/basic/GetDataFromServer';
 import GetDataFromServer02 from './components/basic/GetDataFromServer02';
 import 'semantic-ui-css/semantic.min.css'
 import ListExampleDivided from './components/bind-handler/ListExampleDivided';
+import HomePage from './components/intermidate/HomePage';
 
 
 function App() {
@@ -13,8 +14,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />       
       </header> */}
       
-      <GetDataFromServer02></GetDataFromServer02>
-      <GetDataFromServer></GetDataFromServer>
+      {/* <GetDataFromServer02></GetDataFromServer02>
+      <GetDataFromServer></GetDataFromServer> */}
+
+      <HomePage></HomePage>
 
     </div>
   );
