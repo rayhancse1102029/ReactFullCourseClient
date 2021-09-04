@@ -5,6 +5,9 @@ import GetDataFromServer02 from './components/basic/GetDataFromServer02';
 import 'semantic-ui-css/semantic.min.css'
 import ListExampleDivided from './components/bind-handler/ListExampleDivided';
 import HomePage from './components/intermidate/HomePage';
+import Footer from './components/intermidate/Footer';
+import Navbar from './components/intermidate/Navbar';
+import EmployeeList from './components/intermidate/EmployeeList';
 
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
       {/* <GetDataFromServer02></GetDataFromServer02>
       <GetDataFromServer></GetDataFromServer> */}
 
-      <HomePage></HomePage>
+      {/* <HomePage></HomePage> */}
+      <Navbar></Navbar>
+      <EmployeeList></EmployeeList>
+      <Footer></Footer>
 
     </div>
   );
